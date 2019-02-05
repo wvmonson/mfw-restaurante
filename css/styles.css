@@ -1,0 +1,50 @@
+.wrap {
+  min-height: 100vh;
+}
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 60px;
+}
+
+.carousel-inner .item {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_img1 {
+  background-image: url('../img/wood-2.jpg');
+}
+
+.main_img2 {
+  background-image: url('../img/restaurant-2.jpg')
+}
+
+.main_img3 {
+  background-image: url('../img/farm-2.jpg');
+}
+.main_logo {
+  max-height: 300px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f8512f;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #d34326;
+  border-color: transparent;
+}
+
+.carousel-caption p {
+  color: #f7f7f7;
+  font-size: 16px;
+}
