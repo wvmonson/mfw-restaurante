@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.nav li a:hover {
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: rgba(17, 17, 17, .5);
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+  color: #f8512f;
+  background-color: rgba(17, 17, 17, .2);
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #fcfcfc;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+nav.navbar {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-brand > img {
+  margin-top: -7px;
+}
+
 .wrap {
   min-height: 100vh;
 }
@@ -48,3 +95,5 @@
   color: #f7f7f7;
   font-size: 16px;
 }
+
+.
