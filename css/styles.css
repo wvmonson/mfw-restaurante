@@ -121,7 +121,7 @@ nav.navbar {
   color: rgba(149, 147, 147, 0.2);
 }
 
-
+/* Review */
 
 #review {
   background-image: url('../img/food_review.jpg');
@@ -132,11 +132,10 @@ nav.navbar {
 #review .center {
   margin: 0 auto;
   float: none;
-  background-color: rgba(20, 20, 20, 0.6);
+  background-color: rgba(20, 20, 20, .6);
   padding: 10px;
   margin-top: 145px;
   border-radius: 5px;
-
 }
 
 #review h1 {
@@ -152,4 +151,121 @@ nav.navbar {
   font-weight: 300;
   font-size: 2em;
   text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/* Menu Section */
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+#menu h1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#menu h3{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em
+}
+
+#menu a {
+  color: #f8512f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#menu p {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.food {
+  background-color: #fff;
+  padding: 10px 10px;
+}
+
+#menu .nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+}
+
+#menu .nav-justified li a {
+  margin-bottom: -5px;
+}
+
+#menu .nav-tabs li a {
+  border: none
+}
+
+/* Contact Section */
+.contact_form {
+  background-color: #ff6633;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1em;
+}
+
+.contact_form form {
+  padding: 5% 0;
+}
+
+.contact_form span {
+  color: #f8512f;
+}
+
+#contact {
+  background-color: #f8512f;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4em;
+}
+#contact p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1em;
+}
+
+#contact_fine_print {
+  font-size: 12p !important;
+  text-align: center;
+}
+
+address {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.contact_bottom {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#contact_fine_print span::after {
+  content: ' * ';
+  color: #fff;
+}
+
+
+/* Media Query */
+
+@media (max-width: 987px) {
+  .story_year {
+    font-size: 160px;
+  }
 }
